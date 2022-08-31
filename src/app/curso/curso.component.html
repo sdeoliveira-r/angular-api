@@ -1,0 +1,44 @@
+<header class="container_header">
+    <h1>API - Métodos - Get/Post/Put/Delete</h1>
+</header>
+<body class="contents">
+    <h2>RANKINGS</h2>
+    <table class="container_table">
+        <thead>
+            <th>CURSOS</th>
+            <th>VALOR</th>
+            <th>MÉTODOS</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let v of vetor">
+                <td>{{ v.nomeCurso }}</td>
+                <td> {{ v.valorCurso }}</td>
+                <th><button class="button_get" (click)="selecionarCurso(v)">Selecionar</button></th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <label>Curso:</label>
+                    <input type="text" name="nomeCurso" [(ngModel)]="curso.nomeCurso">
+                </td>
+                <td>
+                    <label>Valor:</label>
+                    <input type="text" name="valorCurso" [(ngModel)]="curso.valorCurso">
+                </td>
+                <th>
+                    <button class="button_post" (click)="cadastro(this.curso)">Cadastrar</button>
+                    <br>
+                    <button class="button_put" (click)="alterar()">Alterar</button>
+                    <br>
+                    <button class="button_delete" (click)="remover(curso.idCurso? curso.idCurso:0)">Excluir</button>
+                </th>
+            </tr>        
+        </tfoot>
+    </table>
+</body>
+<footer class="container_footer">
+    <h3></h3>
+    <p></p>
+</footer>
+

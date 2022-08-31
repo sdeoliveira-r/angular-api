@@ -1,0 +1,96 @@
+.container_header {
+  padding: 20px;
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: royalblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size:medium;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2{
+  padding: 0.5rem 1rem 0.5rem 1rem;;
+  background-color: rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  width: 40%;
+  height: initial;
+  margin: 10px auto;
+}
+
+.contents {
+  background-color:rgba(0, 0, 0, 0.13);
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+}
+
+.container_table, td, th {
+  width: 39%;
+  display: flexbox;
+  background-color: rgb(112, 212, 212);
+
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.10) 1px 1px 1px 4px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300px;
+}
+
+.button_get {
+  background-color: rgb(53, 53, 255);
+  color: ivory;
+  padding: 3px;
+  border-radius: 3px;
+  border: solid white 0.2px;
+  width:57%;
+}
+
+.button_put {
+  background-color: orange;
+  color: ivory;
+  padding: 3px;
+  border-radius: 3px;
+  border: solid white 0.2px;  
+  width:57%;
+}
+
+.button_post {
+  background-color: olivedrab;
+  color: ivory;
+  padding: 3px;
+  border-radius: 3px;
+  border: solid white 0.2px;
+  width:57%;  
+}
+
+.button_delete {
+  background-color: orangered;
+  color: ivory;
+  padding: 3px;
+  border-radius: 3px;
+  border: solid white 0.2px;
+  width:57%;
+}
+
+input{
+  width: 75%;
+  height: 30px;
+  border: solid gray 0.2px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight:600;
+}
