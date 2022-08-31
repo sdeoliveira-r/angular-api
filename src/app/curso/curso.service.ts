@@ -13,7 +13,7 @@ import { Curso } from './curso';
 export class CursoService {
 
   //URL
-  url = "http://localhost/api/scripts-php/";
+  url = "http://localhost/api/projeto-api/scripts-php-database/";
 
   //Vetor
   vetor: Curso[] = [];
